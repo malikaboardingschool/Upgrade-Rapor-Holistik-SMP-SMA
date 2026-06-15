@@ -26,6 +26,17 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     
+    /* Aturan ketebalan garis pertengahan (1.5px) untuk layar web */
+    .screen-border-1-5 {
+      border-width: 1.5px !important;
+    }
+    .screen-border-b-1-5 {
+      border-bottom-width: 1.5px !important;
+    }
+    .screen-border-t-1-5 {
+      border-top-width: 1.5px !important;
+    }
+
     @page {
       size: A4;
       margin: 0 !important;
@@ -35,7 +46,7 @@
       /* Mengatur latar belakang putih & ketajaman teks saat cetak */
       html, body {
         background-color: white !important;
-        color: #0f172a !important;
+        color: #1e293b !important;
         padding: 0 !important;
         margin: 0 !important;
         width: 210mm !important;
@@ -110,7 +121,7 @@
       .print-desc-text {
         font-size: 13px !important;
         line-height: 1.55 !important;
-        color: #1e293b !important; /* Slate gelap premium untuk hasil tinta tajam */
+        color: #334155 !important; /* Slate abu-abu gelap */
       }
 
       /* Ukuran font judul section */
@@ -122,6 +133,31 @@
       /* Tanda tangan lapang */
       .print-signature-space {
         height: 64px !important;
+      }
+
+      /* Pertegas garis tepi kotak saat dicetak (Abu-abu Gelap Presisi 1.5px) */
+      .print-border-bold {
+        border-color: #4b5563 !important; /* Gray 600 (Abu-abu Gelap) */
+        border-width: 1.5px !important;
+        border-style: solid !important;
+      }
+      
+      .print-border-medium {
+        border-color: #6b7280 !important; /* Gray 500 (Abu-abu Gelap Sedang) */
+        border-width: 1px !important;
+        border-style: solid !important;
+      }
+      
+      .print-border-b-bold {
+        border-bottom-color: #4b5563 !important;
+        border-bottom-width: 1.5px !important;
+        border-bottom-style: solid !important;
+      }
+      
+      .print-border-t-bold {
+        border-top-color: #4b5563 !important;
+        border-top-width: 1.5px !important;
+        border-top-style: solid !important;
       }
     }
   </style>
@@ -227,11 +263,11 @@
         "Meningkatkan kedisiplinan fisik dan ketangkasan dalam kegiatan olahraga asrama."
       ],
       pesan_wali: [
-        "Masya Allah, ananda adalah santriwati yang penuh energi positif. Teruslah konsisten menjaga ibadah.",
+        "Masya Allah, ananda adalah santri yang penuh energi positif. Teruslah konsisten menjaga ibadah.",
         "Pertahankan prestasi gemilangmu, Nak. Jaga terus kerendahan hati dan kesantunan akhlakmu.",
         "Ustadzah bangga dengan akhlak muliamu. Teruslah menjadi teladan kebaikan di mana pun berada.",
         "Potensimu sangat besar, tingkatkan rasa percaya dirimu dan teruslah rajin murojaah hafalan.",
-        "Semoga Allah senantiasa memberkahi belajarmu. Jaga kesehatan dan pertahankan semangat tholabul ilmi.",
+        "Semoga Allah senantiasa memberkahi belajarmu. Jaga kesehatan and pertahankan semangat tholabul ilmi.",
         "Ananda memiliki kemandirian yang luar biasa. Tingkatkan penguasaan bahasa asingmu, ya.",
         "Belajarlah dengan lebih tekun dan teliti. Ustadzah yakin ananda mampu meraih nilai yang lebih baik.",
         "Kurangi waktu bermain, fokuslah pada target hafalan Al-Qur'an yang telah disepakati bersama.",
@@ -252,14 +288,14 @@
         progres_1s: "Mengalami lompatan pemahaman kognitif yang sangat baik, sangat vokal dan antusias dalam berdiskusi kelompok, serta konsisten menyerahkan tugas tepat waktu.", 
         mapel_unggul: "Bahasa Arab, Seni Budaya, Fiqih", 
         mapel_perlu: "Matematika", 
-        ibadah: "Sangat istiqamah dalam shalat berjamaah lima waktu di mushola putri asrama, rajin mengamalkan puasa sunnah Senin-Kamis, dan aktif memimpin pembacaan dzikir pagi.", 
+        ibadah: "Sangat istiqamah dalam shalat berjamaah lima waktu di mushola putri asrama, rajin mengamalkan puasa sunnah Senin-Kamis, and aktif memimpin pembacaan dzikir pagi.", 
         tahfizh_juz: 5, 
         tahfizh_detail: "5 Juz (Lancar Juz 30, 29, 28, Surah Al-Kahfi, dan Yasin)", 
         disiplin: "Selalu mematuhi peraturan pondok dengan gembira, merapikan kasur dan lemari secara mandiri tanpa disuruh, serta menjadi panutan berpakaian rapi bagi teman asramanya.", 
-        sosial: "Memiliki jiwa kepemimpinan (leadership) alamiah yang menonjol, sangat mudah bergaul, gemar menolong teman yang kesulitan, dan mampu crystalline suasana harmonis di kelas.", 
+        social: "Memiliki jiwa kepemimpinan (leadership) alamiah yang menonjol, sangat mudah bergaul, gemar menolong teman yang kesulitan, and mampu menciptakan suasana harmonis di kelas.", 
         prestasi: "Juara 1 Lomba Pidato Dakwah Keagamaan (Muhadharah) tingkat Pondok Pesantren Malika.", 
         fokus: "Meningkatkan ketelitian dalam menyelesaikan soal hitungan Matematika dan lebih tenang serta tartil ketika menyetor hafalan baru.", 
-        pesan_wali: "Masya Allah, ananda Ria adalah santriwati yang penuh energi positif and membawa keceriaan di lingkungan pesantren. Teruslah konsisten menjaga ibadah, tingkatkan penguasaan materi hitungan, dan gunakan kemampuan komunikasi ananda yang luar biasa ini untuk menebar dakwah serta kebaikan di mana pun berada.",
+        pesan_wali: "Masya Allah, ananda Ria adalah santri yang penuh energi positif and membawa keceriaan di lingkungan pesantren. Teruslah konsisten menjaga ibadah, tingkatkan penguasaan materi hitungan, dan gunakan kemampuan komunikasi ananda yang luar biasa ini untuk menebar dakwah serta kebaikan di mana pun berada.",
         wali_kamar: "Sayyidah Raisya Apalah (Arti Menunggu)"
       },
       { 
@@ -285,7 +321,6 @@
     ];
 
     function App() {
-      // Mengambil appId secara aman dari global window (Aturan 1 & Aturan 3)
       const appId = typeof window !== 'undefined' && window.__app_id ? window.__app_id : 'default-app-id';
 
       // Inisialisasi awal menggunakan data lokal
@@ -311,7 +346,7 @@
       // State collapsible Pengaturan Identitas Dokumen (Default: false agar tersembunyi rapi)
       const [showSettings, setShowSettings] = useState(false);
 
-      // --- SINKRONISASI & OTENTIKASI AWAN SECARA SENYAP (Mencegah Kehilangan Data) ---
+      // --- SINKRONISASI & OTENTIKASI AWAN SECARA SENYAP ---
       useEffect(() => {
         if (!auth) return;
         const initAuth = async () => {
@@ -335,7 +370,6 @@
       useEffect(() => {
         if (!user || !db) return;
 
-        // Strict Path sesuai Aturan 1
         const studentsCol = db.collection('artifacts').doc(appId).collection('public').doc('data').collection('students');
         
         const unsubscribe = studentsCol.onSnapshot((snapshot) => {
@@ -350,7 +384,7 @@
               studentsCol.doc(s.id).set(s);
             });
           } else {
-            // Urutkan data secara internal di memori browser (Aturan 2)
+            // Urutkan data secara internal di memori browser
             list.sort((a, b) => {
               const numA = parseInt(a.nis.replace(/\D/g, '')) || 0;
               const numB = parseInt(b.nis.replace(/\D/g, '')) || 0;
@@ -439,7 +473,7 @@
         }
       };
 
-      // Menyimpan data santriwati langsung ke dalam database awan permanen (Aturan 3)
+      // Menyimpan data santri langsung ke dalam database awan permanen
       const handleSaveStudent = async (studentData) => {
         const studentId = isAddingNew ? Date.now().toString() : studentData.id;
         const updatedPayload = {
@@ -478,14 +512,14 @@
         }
       };
 
-      // Menghapus data santriwati secara permanen
+      // Menghapus data santri secara permanen
       const handleDeleteStudent = (id, name) => {
-        triggerConfirm(`Apakah Anda yakin ingin menghapus data santriwati "${name}" secara permanen?`, async () => {
+        triggerConfirm(`Apakah Anda yakin ingin menghapus data santri "${name}" secara permanen?`, async () => {
           if (user && db) {
             try {
               const studentDocRef = db.collection('artifacts').doc(appId).collection('public').doc('data').collection('students').doc(id);
               await studentDocRef.delete();
-              triggerAlert("Data santriwati berhasil dihapus secara permanen.", "Sukses Terhapus");
+              triggerAlert("Data santri berhasil dihapus secara permanen.", "Sukses Terhapus");
               
               if (students.length > 1) {
                 const nextValid = students.find(s => s.id !== id);
@@ -498,7 +532,7 @@
           } else {
             const updated = students.filter(s => s.id !== id);
             setStudents(updated);
-            triggerAlert("Data santriwati berhasil dihapus.", "Sukses Terhapus");
+            triggerAlert("Data santri berhasil dihapus.", "Sukses Terhapus");
             
             if (updated.length > 0) {
               if (String(selectedStudentId) === String(id)) {
@@ -511,7 +545,7 @@
         });
       };
 
-      // Download Data Excel / CSV dengan 11 kolom presisi
+      // Download Data Excel / CSV dengan 12 kolom presisi (Termasuk pemisahan "Jumlah Juz" dan "Tahfizh Al-Qur'an")
       const handleDownloadExcel = () => {
         if (students.length === 0) {
           triggerAlert("Tidak ada data siswa untuk diunduh.", "Data Kosong");
@@ -527,7 +561,8 @@
           "Mata Pelajaran Unggul",
           "Mata Pelajaran Perlu Bimbingan",
           "Progress 1 Tahun", 
-          "Tahfizh Al-Qur'an", 
+          "Jumlah Juz",                      // Kolom Baru khusus Jumlah Juz
+          "Tahfizh Al-Qur'an",                // Kolom Detail hafalan
           "Ibadah Harian", 
           "Sikap & Disiplin", 
           "Kepemimpinan & Sosial", 
@@ -546,7 +581,8 @@
           s.mapel_unggul || "",
           s.mapel_perlu || "",
           s.progres_1s || "", 
-          s.tahfizh_detail || (s.tahfizh_juz ? `${s.tahfizh_juz} Juz` : "0 Juz"), 
+          s.tahfizh_juz !== undefined ? s.tahfizh_juz : 0, 
+          s.tahfizh_detail || "", 
           s.ibadah || "", 
           s.disiplin || "", 
           s.sosial || "", 
@@ -580,10 +616,10 @@
         document.body.removeChild(link);
       };
 
-      // Template Generator dengan 11 Kolom
+      // Template Generator dengan 12 Kolom yang mendukung pemisahan Jumlah Juz secara eksplisit
       const getTemplateTSV = () => {
-        const headers = "Nama Santri\tNIS / Kelas\tNilai SAS (Ganjil)\tNilai SAT (Genap)\tHasil Psikotes Awal\tMata Pelajaran Unggul\tMata Pelajaran Perlu Bimbingan\tProgress 1 Tahun\tTahfizh Al-Qur'an\tIbadah Harian\tSikap & Disiplin\tKepemimpinan & Sosial\tPrestasi Non-Akademik\tFokus Peningkatan & Target Tahun Selanjutnya\tPesan Wali Kelas & Wali Kamar\tNama Wali Kamar";
-        const dummyRow = "Ria Ricis\tNIS-001/7 A\t88\t94\tMenunjukkan tingkat penyesuaian sosial yang luar biasa tinggi.\tBahasa Arab, Seni Budaya\tMatematika\tMengalami lompatan pemahaman kognitif yang sangat baik, sangat vokal dan antusias dalam berdiskusi kelompok, serta konsisten menyerahkan tugas tepat waktu.\t5 Juz (Lancar Juz 30, 29, 28, Surah Al-Kahfi, dan Yasin)\tSangat istiqamah dalam shalat berjamaah lima waktu di mushola putri asrama, rajin mengamalkan puasa sunnah Senin-Kamis.\tSelalu mematuhi peraturan pondok dengan gembira, merapikan kasur and lemari secara mandiri.\tMemiliki jiwa kepemimpinan (leadership) alamiah yang menonjol, sangat mudah bergaul, gemar menolong teman.\tJuara 1 Lomba Pidato Dakwah Keagamaan (Muhadharah) tingkat Pondok Pesantren.\tMeningkatkan ketelitian dalam menyelesaikan soal hitungan Matematika dan lebih tenang serta tartil ketika menyetor hafalan baru.\tMasya Allah, ananda Ria adalah santriwati yang penuh energi positif. Teruslah konsisten menjaga ibadah.\tSayyidah Raisya Apalah (Arti Menunggu)";
+        const headers = "Nama Santri\tNIS / Kelas\tNilai SAS (Ganjil)\tNilai SAT (Genap)\tHasil Psikotes Awal\tMata Pelajaran Unggul\tMata Pelajaran Perlu Bimbingan\tProgress 1 Tahun\tJumlah Juz\tTahfizh Al-Qur'an\tIbadah Harian\tSikap & Disiplin\tKepemimpinan & Sosial\tPrestasi Non-Akademik\tFokus Peningkatan & Target Tahun Selanjutnya\tPesan Wali Kelas & Wali Kamar\tNama Wali Kamar";
+        const dummyRow = "Ria Ricis\tNIS-001/7 A\t88\t94\tMenunjukkan tingkat penyesuaian sosial yang luar biasa tinggi.\tBahasa Arab, Seni Budaya\tMatematika\tMengalami lompatan pemahaman kognitif yang sangat baik, sangat vokal dan antusias dalam berdiskusi kelompok, serta konsisten menyerahkan tugas tepat waktu.\t5\tLancar Juz 30, 29, 28, Surah Al-Kahfi, dan Yasin\tSangat istiqamah dalam shalat berjamaah lima waktu di mushola putri asrama, rajin mengamalkan puasa sunnah Senin-Kamis.\tSelalu mematuhi peraturan pondok dengan gembira, merapikan kasur and lemari secara mandiri.\tMemiliki jiwa kepemimpinan (leadership) alamiah yang menonjol, sangat mudah bergaul, gemar menolong teman.\tJuara 1 Lomba Pidato Dakwah Keagamaan (Muhadharah) tingkat Pondok Pesantren.\tMeningkatkan ketelitian dalam menyelesaikan soal hitungan Matematika dan lebih tenang serta tartil ketika menyetor hafalan baru.\tMasya Allah, ananda Ria adalah santri yang penuh energi positif. Teruslah konsisten menjaga ibadah.\tSayyidah Raisya Apalah (Arti Menunggu)";
         
         setBulkImportText(`${headers}\n${dummyRow}`);
         triggerAlert("Template berhasil dimuat di kolom teks di bawah! Anda bisa menyalinnya ke Excel/Sheets untuk diisi, lalu klik 'Proses & Upload'.", "Template Berhasil Dimuat");
@@ -628,7 +664,7 @@
         return result;
       };
 
-      // Proses Impor Data TSV/CSV yang diupload langsung ke State Lokal (dengan Prioritas yang Sangat Ketat)
+      // Proses Impor Data TSV/CSV yang diupload langsung ke State Lokal
       const handleImportTSV = async () => {
         try {
           const lines = bulkImportText.trim().split("\n");
@@ -657,7 +693,7 @@
             const rowObj = {};
             
             headers.forEach((header, index) => {
-              let key = header;
+              let key = null;
               const h = header.trim().toLowerCase();
               if (h.includes("nama santri") || h.includes("nama lengkap") || h === "nama") {
                 key = "nama";
@@ -673,7 +709,9 @@
                 } else if (h.includes("fokus") || h.includes("target")) {
                   key = "fokus";
                 }
-              } else if (h.includes("tahfizh") || h.includes("qur'an") || h.includes("quran")) {
+              } else if (h.includes("jumlah juz") || h === "juz" || h === "jumlah_juz" || (h.includes("juz") && h.includes("jumlah"))) {
+                key = "tahfizh_juz";
+              } else if (h.includes("tahfizh") || h.includes("qur'an") || h.includes("quran") || h.includes("detail")) {
                 key = "tahfizh_detail";
               } else if (h.includes("ibadah")) {
                 key = "ibadah";
@@ -705,19 +743,24 @@
             const studentId = (Date.now() + i).toString();
             rowObj.id = studentId;
 
-            // Ekstrak angka juz dari deskripsi teks tahfizh
+            // --- SISTEM DETEKSI OTOMATIS & FALLBACK JUMLAH JUZ ---
             let extractedJuz = 0;
-            if (rowObj.tahfizh_detail) {
+            
+            // 1. Jika kolom 'Jumlah Juz' terdeteksi secara eksplisit, gunakan nilainya
+            if (rowObj.tahfizh_juz !== undefined && rowObj.tahfizh_juz !== "") {
+              extractedJuz = parseInt(String(rowObj.tahfizh_juz).replace(/\D/g, '')) || 0;
+            } else if (rowObj.tahfizh_detail) {
+              // 2. Jika tidak ada kolom 'Jumlah Juz', tapi ada detail teks (misal: "5 Juz (Lancar Juz 30...)"), ekstrak angkanya secara cerdas
               const numMatch = String(rowObj.tahfizh_detail).match(/\d+/);
               extractedJuz = numMatch ? parseInt(numMatch[0]) : 0;
             }
             rowObj.tahfizh_juz = extractedJuz;
 
-            rowObj.nama = rowObj.nama || "Santriwati Baru " + i;
+            rowObj.nama = rowObj.nama || "Santri Baru " + i;
             rowObj.nis = rowObj.nis || "NIS-xxx";
             rowObj.sas = Number(rowObj.sas) || 85;
             rowObj.sat = Number(rowObj.sat) || 88;
-            rowObj.psikotes = rowObj.psikotes || "Menunjukkan stabilitas kognitif dan adaptasi sosial yang baik di lingkungan pondok.";
+            rowObj.psikotes = rowObj.psikotes || "Menunjukkan stabilitas kognitif and adaptasi sosial yang baik di lingkungan pondok.";
             rowObj.mapel_unggul = rowObj.mapel_unggul || "Bahasa Arab, Fiqih";
             rowObj.mapel_perlu = rowObj.mapel_perlu || "Matematika";
             rowObj.wali_kamar = rowObj.wali_kamar || "Sayyidah Raisya Apalah (Arti Menunggu)";
@@ -736,7 +779,7 @@
 
           setShowImportModal(false);
           setBulkImportText("");
-          triggerAlert(`Berhasil mengunggah ${newStudentsList.length} data santriwati baru!`, "Upload Sukses");
+          triggerAlert(`Berhasil mengunggah ${newStudentsList.length} data santri baru! Keterangan Jumlah Juz telah diperbarui secara otomatis.`, "Upload Sukses");
         } catch (err) {
           console.error("Gagal upload:", err);
           triggerAlert("Gagal memproses data unggahan. Pastikan format file atau salinan tabel benar.", "Kesalahan");
@@ -767,7 +810,7 @@
                 </div>
                 <div>
                   <h1 className="text-base font-extrabold tracking-wide uppercase leading-none text-slate-100">MALIKA ISLAMIC BOARDING SCHOOL</h1>
-                  <p className="text-[10px] text-indigo-300 font-semibold mt-1">Sistem Rapor Holistik Perkembangan</p>
+                  <p className="text-[10px] text-indigo-300 font-semibold mt-1">Sistem Rapor Holistik Perkembangan Santri</p>
                 </div>
               </div>
               <div className="px-3 py-1 bg-slate-800/80 rounded-full text-[10px] font-bold flex items-center gap-2 border border-slate-700/60 shadow-inner">
@@ -780,7 +823,7 @@
           {/* Area Konten Utama */}
           <div className="flex-grow max-w-4xl mx-auto w-full p-4 print:p-0">
 
-            {/* PANEL PENGATURAN GLOBAL (Dapat dilipat dengan 1 klik pada header) */}
+            {/* PANEL PENGATURAN GLOBAL */}
             <div className="no-print bg-white rounded-2xl shadow-sm border border-slate-200 mb-4 overflow-hidden transition-all duration-300">
               <div 
                 onClick={() => setShowSettings(!showSettings)} 
@@ -829,11 +872,9 @@
               )}
             </div>
 
-            {/* BAR KENDALI & NAVIGASI YANG SANGAT RINGKAS */}
+            {/* BAR KENDALI & NAVIGASI */}
             {students.length > 0 && (
               <div className="no-print bg-white p-4 rounded-2xl shadow-sm border border-slate-200 mb-6 flex flex-col md:flex-row justify-between items-center gap-4">
-                
-                {/* Pilih Santriwati (Fitur input cari nama telah dihapus) */}
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full md:w-auto flex-grow max-w-md">
                   {/* Navigasi Cycler */}
                   <div className="flex items-center gap-1">
@@ -860,7 +901,7 @@
                   </div>
                 </div>
 
-                {/* Tombol Fungsional yang Ringkas */}
+                {/* Tombol Fungsional */}
                 <div className="flex flex-wrap gap-1.5 w-full md:w-auto justify-end">
                   <button onClick={() => { setIsAddingNew(false); setEditingStudent(selectedStudent); }} className="h-9 px-3 bg-slate-50 hover:bg-slate-100 text-slate-700 font-bold text-xs rounded-xl transition border border-slate-200">
                     ✏️ Edit
@@ -889,8 +930,8 @@
               {selectedStudent ? (
                 <div className="space-y-6">
                   
-                  {/* HALAMAN 1 (A4) - Strictly Locked Height & Width */}
-                  <div className="print-page print-h-page print-p-premium bg-white max-w-[210mm] mx-auto p-12 shadow-md border border-slate-200 relative overflow-hidden flex flex-col justify-between">
+                  {/* HALAMAN 1 (A4) - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                  <div className="print-page print-h-page print-p-premium bg-white max-w-[210mm] mx-auto p-12 shadow-md border screen-border-1-5 border-slate-500 relative overflow-hidden flex flex-col justify-between">
                     
                     {/* Watermark Logo Samar */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] pointer-events-none opacity-[0.03] flex items-center justify-center">
@@ -916,10 +957,10 @@
                           </div>
                         </div>
 
-                        {/* Identitas Santri */}
-                        <div className="border border-slate-200 rounded-xl p-3 bg-slate-50/60 grid grid-cols-1 sm:grid-cols-2 gap-1 mb-4 text-xs">
+                        {/* Identitas Santri - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                        <div className="border screen-border-1-5 border-slate-500 print-border-bold rounded-xl p-3 bg-slate-50/60 grid grid-cols-1 sm:grid-cols-2 gap-1 mb-4 text-xs">
                           <div>
-                            <span className="w-28 inline-block font-extrabold text-slate-500">Nama Santriwati</span>
+                            <span className="w-28 inline-block font-extrabold text-slate-500">Nama Santri</span>
                             <span className="text-slate-900 font-extrabold text-sm">: {selectedStudent.nama}</span>
                           </div>
                           <div>
@@ -935,13 +976,13 @@
                             <h3 className="print-title-text text-xs font-black uppercase text-indigo-950">I. AKADEMIK DAN PERKEMBANGAN DIRI</h3>
                           </div>
                           
-                          {/* Tata Letak 2 Kolom Premium - Mengakomodasi Deskripsi Panjang */}
+                          {/* Tata Letak 2 Kolom Premium */}
                           <div className="grid grid-cols-1 md:grid-cols-2 grid-cols-print-2 gap-3 mb-3">
                             
                             {/* Kolom Kiri: Grafik Nilai, Daya Serap, Tahfizh */}
                             <div className="flex flex-col gap-3">
-                              {/* Box 1: Grafik Perbandingan Nilai */}
-                              <div className="border border-[#00aeef]/12 bg-white flex flex-col justify-between h-[210px] h-print-chart shadow-sm rounded-xl p-3">
+                              {/* Box 1: Grafik Perbandingan Nilai - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                              <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-white flex flex-col justify-between h-[210px] h-print-chart shadow-sm rounded-xl p-3">
                                 <div>
                                   <h4 className="text-[11px] font-black text-[#2b3990] uppercase mb-2">
                                     Perbandingan Nilai Rata-rata
@@ -952,7 +993,7 @@
                                         <span>SAS (Nilai Semester Ganjil)</span>
                                         <span className="font-extrabold text-slate-900">{selectedStudent.sas}</span>
                                       </div>
-                                      <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200">
+                                      <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-400 print-border-medium">
                                         <div className="bg-[#2b3990] h-full rounded-full transition-all duration-500" style={{ width: `${selectedStudent.sas}%` }}></div>
                                       </div>
                                     </div>
@@ -961,13 +1002,13 @@
                                         <span>SAT (Nilai Semester Genap)</span>
                                         <span className="font-extrabold text-[#00aeef]">{selectedStudent.sat}</span>
                                       </div>
-                                      <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-200">
+                                      <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden border border-slate-400 print-border-medium">
                                         <div className="bg-[#00aeef] h-full rounded-full transition-all duration-500" style={{ width: `${selectedStudent.sat}%` }}></div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div className="bg-slate-50 border border-slate-200 rounded-lg p-2 mt-1">
+                                <div className="bg-slate-50 border border-slate-400 print-border-medium rounded-lg p-2 mt-1">
                                   <p className="text-[10px] text-slate-600 font-semibold leading-normal">
                                     <span className="font-bold text-slate-800">Catatan Nilai: </span>
                                     {!progress.positive ? (
@@ -979,8 +1020,8 @@
                                 </div>
                               </div>
 
-                              {/* Box 2: Daya Serap Mapel */}
-                              <div className="border border-[#00aeef]/12 rounded-xl p-3 bg-white h-[105px] h-print-half shadow-sm flex flex-col justify-center">
+                              {/* Box 2: Daya Serap Mapel - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                              <div className="border screen-border-1-5 border-slate-500 print-border-bold rounded-xl p-3 bg-white h-[105px] h-print-half shadow-sm flex flex-col justify-center">
                                 <h4 className="text-[11px] font-black text-[#2b3990] uppercase mb-1.5">
                                   Daya Serap & Penguasaan
                                 </h4>
@@ -990,29 +1031,33 @@
                                 </div>
                               </div>
 
-                              {/* Box 3: Capaian Tahfizh */}
-                              <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-3 h-[105px] h-print-half shadow-sm flex flex-col justify-center">
+                              {/* Box 3: Capaian Tahfizh - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                              <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-3 h-[105px] h-print-half shadow-sm flex flex-col justify-center">
                                 <div className="flex justify-between items-center mb-1">
                                   <h4 className="text-[11px] font-black text-[#2b3990] uppercase">
                                     Tahfizh Al-Qur'an
                                   </h4>
-                                  <span className="px-2 py-0.5 bg-[#2b3990] text-white font-extrabold text-[9px] rounded-full">{selectedStudent.tahfizh_juz} Juz</span>
+                                  <span className="px-2 py-0.5 bg-[#2b3990] text-white font-extrabold text-[9px] rounded-full">
+                                    {selectedStudent.tahfizh_juz ? `${selectedStudent.tahfizh_juz} Juz` : "0 Juz"}
+                                  </span>
                                 </div>
-                                <p className="print-desc-text text-xs font-bold text-slate-800 leading-normal line-clamp-2">{selectedStudent.tahfizh_detail || `${selectedStudent.tahfizh_juz} Juz Terhafal`}</p>
+                                <p className="print-desc-text text-xs font-bold text-slate-800 leading-normal line-clamp-2">
+                                  {selectedStudent.tahfizh_detail || "Belum ada catatan detail tahfizh."}
+                                </p>
                               </div>
                             </div>
                             
                             {/* Kolom Kanan: Hasil Psikotes Awal Masuk & Progress 1 Tahun */}
-                            <div className="border border-[#00aeef]/12 rounded-xl p-3 bg-white flex flex-col gap-2 h-[424px] h-print-tall shadow-sm">
+                            <div className="border screen-border-1-5 border-slate-500 print-border-bold rounded-xl p-3 bg-white flex flex-col gap-2 h-[424px] h-print-tall shadow-sm">
                               <h4 className="text-[11px] font-black text-[#2b3990] uppercase">
                                 Hasil Psikotes Awal Masuk
                               </h4>
                               
-                              <div className="bg-[#00aeef]/3 border border-[#00aeef]/8 rounded-lg p-2.5 flex-1 flex flex-col justify-center">
+                              <div className="bg-[#00aeef]/3 border border-slate-400 print-border-medium rounded-lg p-2.5 flex-1 flex flex-col justify-center">
                                 <p className="print-desc-text text-xs leading-normal text-slate-800 font-medium">{selectedStudent.psikotes}</p>
                               </div>
 
-                              <div className="bg-[#00aeef]/3 border border-[#00aeef]/8 rounded-lg p-2.5 flex-2 flex flex-col justify-center">
+                              <div className="bg-[#00aeef]/3 border border-slate-400 print-border-medium rounded-lg p-2.5 flex-2 flex flex-col justify-center">
                                 <div className="flex items-center gap-1 mb-0.5">
                                   <span className="text-[8px] text-[#2b3990] font-extrabold uppercase tracking-wide">Progress 1 Tahun</span>
                                 </div>
@@ -1023,7 +1068,7 @@
                           </div>
                         </div>
 
-                        {/* BAGIAN KARAKTER & AKHLAK - Ketinggian kotak ditingkatkan (38mm) */}
+                        {/* BAGIAN KARAKTER & AKHLAK */}
                         <div>
                           <div className="flex items-center gap-2 mb-2">
                             <div className="w-[4px] h-[18px] bg-[#2b3990]"></div>
@@ -1031,19 +1076,19 @@
                           </div>
                           
                           <div className="grid grid-cols-1 md:grid-cols-2 grid-cols-print-2 gap-3">
-                            <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
+                            <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
                               <h4 className="text-[10px] font-black text-[#2b3990] uppercase">Ibadah Harian</h4>
                               <p className="print-desc-text text-xs text-slate-700 font-medium leading-normal line-clamp-5">{selectedStudent.ibadah}</p>
                             </div>
-                            <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
+                            <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
                               <h4 className="text-[10px] font-black text-[#2b3990] uppercase">Sikap & Disiplin</h4>
                               <p className="print-desc-text text-xs text-slate-700 font-medium leading-normal line-clamp-5">{selectedStudent.disiplin}</p>
                             </div>
-                            <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
+                            <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
                               <h4 className="text-[10px] font-black text-[#2b3990] uppercase">Kepemimpinan & Sosial</h4>
                               <p className="print-desc-text text-xs text-slate-700 font-medium leading-normal line-clamp-5">{selectedStudent.sosial}</p>
                             </div>
-                            <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
+                            <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-3 h-[145px] h-print-karakter shadow-sm flex flex-col justify-between">
                               <h4 className="text-[10px] font-black text-[#2b3990] uppercase">Prestasi Non-Akademik</h4>
                               <p className="print-desc-text text-xs text-slate-700 font-medium leading-normal line-clamp-5">{selectedStudent.prestasi}</p>
                             </div>
@@ -1054,8 +1099,8 @@
                     </div>
                   </div>
 
-                  {/* HALAMAN 2 (A4) - Perfectly Proportioned signature area */}
-                  <div className="print-page print-h-page print-p-premium bg-white max-w-[210mm] mx-auto p-12 shadow-md border border-slate-200 relative overflow-hidden flex flex-col justify-between">
+                  {/* HALAMAN 2 (A4) - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                  <div className="print-page print-h-page print-p-premium bg-white max-w-[210mm] mx-auto p-12 shadow-md border screen-border-1-5 border-slate-500 relative overflow-hidden flex flex-col justify-between">
                     
                     {/* Watermark Logo Samar */}
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] pointer-events-none opacity-[0.03] flex items-center justify-center">
@@ -1064,8 +1109,8 @@
 
                     <div className="relative z-10 flex flex-col h-full justify-between">
                       <div>
-                        {/* Header Mini */}
-                        <div className="border-b pb-2 mb-4">
+                        {/* Header Mini - Presisi 1.5px & Abu-abu Gelap (Slate-500) */}
+                        <div className="border-b screen-border-b-1-5 border-slate-500 print-border-b-bold pb-2 mb-4">
                           <div className="flex justify-between items-center">
                             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Lanjutan Rapor Holistik</span>
                             <span className="text-[10px] font-extrabold text-[#2b3990]">{selectedStudent.nama} ({selectedStudent.nis})</span>
@@ -1074,7 +1119,7 @@
 
                         {/* Fokus Peningkatan & Target Tahun Selanjutnya */}
                         <div className="mb-4">
-                          <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-4 shadow-sm">
+                          <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-4 shadow-sm">
                             <h4 className="text-[11px] font-black text-[#2b3990] mb-1.5 uppercase tracking-wider">
                               Fokus Peningkatan & Target Tahun Selanjutnya
                             </h4>
@@ -1084,7 +1129,7 @@
 
                         {/* Catatan Komprehensif Asrama */}
                         <div className="mb-6">
-                          <div className="border border-[#00aeef]/12 bg-[#00aeef]/3 rounded-xl p-4 shadow-sm">
+                          <div className="border screen-border-1-5 border-slate-500 print-border-bold bg-[#00aeef]/3 rounded-xl p-4 shadow-sm">
                             <h4 className="text-[11px] font-black text-[#2b3990] mb-1.5 uppercase tracking-wider">
                               Pesan / Rekomendasi Wali Kelas & Wali Kamar
                             </h4>
@@ -1094,7 +1139,7 @@
                       </div>
 
                       {/* Area Tanda Tangan */}
-                      <div className="space-y-6 border-t pt-4">
+                      <div className="space-y-6 border-t screen-border-t-1-5 border-slate-500 print-border-t-bold pt-4">
                         <div className="text-center text-xs">
                           <p className="font-semibold text-slate-600">Tangerang, {globalTanggal}</p>
                         </div>
@@ -1137,8 +1182,8 @@
                 </div>
               ) : (
                 <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-slate-300">
-                  <p className="text-sm text-slate-400 font-bold">Tidak ada data santriwati yang dapat ditampilkan.</p>
-                  <button onClick={() => { setIsAddingNew(true); setEditingStudent({ nama: "", nis: "", sas: 85, sat: 88, psikotes: "", progres_1s: "", mapel_unggul: "", mapel_perlu: "", ibadah: "", tahfizh_juz: 0, tahfizh_detail: "", disiplin: "", sosial: "", prestasi: "", fokus: "", pesan_wali: "", wali_kamar: "Sayyidah Raisya Apalah (Arti Menunggu)" }); }} className="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition">Tambah Santriwati Baru</button>
+                  <p className="text-sm text-slate-400 font-bold">Tidak ada data santri yang dapat ditampilkan.</p>
+                  <button onClick={() => { setIsAddingNew(true); setEditingStudent({ nama: "", nis: "", sas: 85, sat: 88, psikotes: "", progres_1s: "", mapel_unggul: "", mapel_perlu: "", ibadah: "", tahfizh_juz: 0, tahfizh_detail: "", disiplin: "", sosial: "", prestasi: "", fokus: "", pesan_wali: "", wali_kamar: "Sayyidah Raisya Apalah (Arti Menunggu)" }); }} className="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold transition">Tambah Santri Baru</button>
                 </div>
               )}
             </div>
@@ -1149,7 +1194,7 @@
             <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
               <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto p-6 space-y-5">
                 <div className="flex justify-between items-center border-b pb-3">
-                  <h3 className="text-base font-black text-[#2b3990]">{isAddingNew ? "➕ Tambah Data Santriwati Baru" : "✏️ Edit Detail Rapor"}</h3>
+                  <h3 className="text-base font-black text-[#2b3990]">{isAddingNew ? "➕ Tambah Data Santri Baru" : "✏️ Edit Detail Rapor"}</h3>
                   <button onClick={() => setEditingStudent(null)} className="text-slate-400 hover:text-slate-600 text-sm">✕</button>
                 </div>
                 
@@ -1309,7 +1354,7 @@
                     <input type="text" value={editingStudent.prestasi} onChange={(e) => setEditingStudent({...editingStudent, prestasi: e.target.value})} className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:ring-2 focus:ring-indigo-500 focus:outline-none"/>
                   </div>
 
-                  {/* Fokus Peningkatan & Target Tahun Selanjutnya */}
+                  {/* Fokus Peningkatan & Target Target Tahun Selanjutnya */}
                   <div className="col-span-2">
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1.5 mb-1.5">
                       <label className="block text-xs font-bold text-slate-600">Fokus Peningkatan & Target Tahun Selanjutnya</label>
@@ -1368,7 +1413,7 @@
               <div className="bg-white rounded-2xl shadow-xl w-full max-w-2xl p-6 space-y-4">
                 <div className="flex justify-between items-start border-b pb-2">
                   <div>
-                    <h3 className="text-sm font-black text-[#2b3990]">📤 Upload Excel)</h3>
+                    <h3 className="text-sm font-black text-[#2b3990]">📤 Upload Excel</h3>
                     <p className="text-[11px] text-slate-500 mt-0.5">Mendukung unggahan file CSV atau salin & tempel tabel secara langsung dari Excel.</p>
                   </div>
                   <button onClick={getTemplateTSV} className="text-[10px] bg-indigo-50 hover:bg-indigo-100 text-[#2b3990] font-black px-3 py-1.5 rounded-lg transition border border-indigo-100">Ambil Template Teks</button>
